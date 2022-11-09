@@ -20,7 +20,7 @@ spec:
             - python
             - -m
             - http.server
-          ports:
+          portds:
             - containerPort: 8000
 ---
 # https://kubernetes.io/docs/concepts/services-networking/service/
